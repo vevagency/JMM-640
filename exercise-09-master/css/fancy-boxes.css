@@ -1,0 +1,64 @@
+body {
+  font: 16px/1.5 sans-serif;
+}
+
+/* Do not touch the div CSS block! */
+div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+/* Add your SHORTHAND styles for each box below this line */
+#box01 {
+  background-color: rgba(28,104,167,1);
+  padding: 20px 0 0 0;
+}
+#box02 {
+  background-color: rgba(28,104,167,0.8);
+  padding: 0 0 20px 0;
+  border-left: 2px solid rgba(28,104,167,1);
+  border-right: 2px solid rgba(28,104,167,1);
+  margin: 20px;
+}
+#box03 {
+  background-color: rgba(28,104,167,0.6);
+  padding: 20px 0;
+  border-top: 2px solid rgba(28,104,167,1);
+  border-bottom: 2px solid rgba(28,104,167,1);
+  margin: 0 20px 0 0;
+}
+#box04 {
+  background-color: rgba(28,104,167,0.4);
+  padding: 0 20px;
+  border-left: 2px solid rgba(28,104,167,1);
+  border-bottom: 2px solid rgba(28,104,167,1);
+}
+
+/* Add your INDIVIDUAL PROPERTY styles for each box below this line */
+/* #box01 {
+  background-color: rgba(28,104,167,1);
+  padding-top: 20px;
+}
+#box02 {
+  background-color: rgba(28,104,167,0.8);
+  margin: 20px;
+  padding-bottom:20px;
+  border-left: 2px solid rgba(28,104,167,1);
+  border-right: 2px solid rgba(28,104,167,1);
+}
+#box03{
+  background-color: rgba(28,104,167,0.6);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-right: 20px;
+  border-top: 2px solid rgba(28,104,167,1);
+  border-bottom: 2px solid rgba(28,104,167,1);
+}
+#box04 {
+  background-color: rgba(28,104,167,0.4);
+  border-left: 2px solid rgba(28,104,167,1);
+  border-bottom: 2px solid rgba(28,104,167,1);
+  padding-right: 20px;
+  padding-left: 20px;
+} */
