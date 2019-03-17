@@ -1,0 +1,101 @@
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  /* color: rgb(165, 105, 189); /*light purple */ */
+  color: #222;
+  font-size: 16px;
+  font-style: normal;
+}
+
+h1 {
+  color: purple;
+  font-size: 24px;
+  font-style: normal;
+}
+
+nav {
+  font-style: italic;
+}
+
+ul li {
+  list-style-type: square, circle;
+}
+
+/*LINKS*/
+
+a {
+  /* color: purple; */
+  color: rgb(233,87,80);
+}
+
+a:visited {
+  /* color: purple; */
+  color: rgb(15,97,165);
+}
+
+a:hover {
+  color: rgb(220, 118, 51); /*orange*/
+}
+
+a:active {
+  color: rgb(93, 173, 226); /*blue*/
+}
+
+/*ID*/
+
+#preamble {
+  background-color: #eee;
+  /* background-color: rgb(165, 105, 189); /*light purple */ */
+  color: white;
+  display: inline-block;
+}
+
+#articles {
+  background-color: #eee;
+  color: red;
+}
+
+#amendments {
+  background-color: #eee;
+  color: red;
+}
+
+/*CLASS*/
+
+.bill-of-rights {
+  background: #ccc;
+}
+
+/*
+h3 {
+  background: purple;
+  color: white;
+} */
+
+/* cite {
+  display: block;
+} */
+
+/* p {
+  font-family: "Garamond", "Times New Roman", serif;
+  color: #222;
+}
+
+ul {
+  font-family: "Garamond", "Times New Roman", serif;
+  color: #222;
+} */
+
+/* DESCENDANTS */
+
+/* footer {
+  background-color: #ccc;
+}
+
+footer p {
+  color: #222;
+}
+
+p,
+li {
+  color: rgb(99,58,115);
+} */
