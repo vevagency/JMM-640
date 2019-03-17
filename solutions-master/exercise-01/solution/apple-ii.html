@@ -1,0 +1,94 @@
+<html>
+  <head>
+    <title>Apple II | Flynn's Retro Computers</title>
+  </head>
+
+  <!--
+    Let's take a moment to think about the title. The site title is
+    "Flynn's Retro Computers, but the page title is "Apple II." We
+    want to combine both here so we don't lose sight of what site
+    and page we're on.
+
+    Order is a judgement call, but still matters as tabs offer limited
+    real estate. If you feel it's more important to highlight the
+    section of the site, Apple II" should appear first. If your site
+    brand is more important, go with "Flynn's Retro Computers." ...
+  -->
+
+  <body>
+    <h1>Flynn's Retro Computers</h1>
+    <h2>Apple II</h2>
+
+    <!--
+      ... However, order matter *does* matter here. Site title before
+      page title. We use an h2 because "Apple II" can be viewed as
+      a subtitle.
+
+      This means when we use headings later on in our page, we'd begin
+      with h3.
+    -->
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="apple-ii.html">Apple II</a></li>
+      <li><a href="commodore-64.html">Commodore 64</a></li>
+      <li><a href="trs-80.html">TRS 80</a></li>
+    </ul>
+
+    <!--
+      There are two ways we can handle our site navigation: include all
+      links or include all links except the current page. The latter
+      option might look like:
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>Apple II</li>
+        <li><a href="commodore-64.html">Commodore 64</a></li>
+        <li><a href="trs-80.html">TRS 80</a></li>
+      </ul>
+
+      Either way is fine when building a basic web site. Styling allows
+      us to 'fake' removal of the link; it can still be clickable, but
+      look as if it is not.
+    -->
+
+    <img src="apple-ii.jpg" alt="Apple II" />
+    <p><em>Apple II Plus. Photo By: Bilby (<abbr title="Creative Commons: Attribution">CC-BY</abbr>)</em></p>
+
+    <!--
+      Did you notice the file names for the pages and images follow a
+      similar convention (i.e. apple-ii.html, apple-ii.jpg)? This is
+      by design to help standardize organization. You can easily
+      determine which files belong to one another.
+    -->
+
+    <p>The <strong>Apple II</strong> (stylized as <strong>Apple ][</strong>) is an 8-bit home computer, one of the first highly successful mass-produced microcomputer products, designed primarily by Steve Wozniak. Steve Jobs oversaw the development of the Apple II's foam-molded plastic case and Rod Holt developed the switching power supply.</p>
+
+    <p>The computer included a <abbr title="Metal Oxide Semiconductor">MOS</abbr> Technology 6502 microprocessor running at 1.023 <abbr title="megahertz">MHz</abbr>, two game paddles (no longer bundled as of 1980 because they violated <abbr title="Federal Communications Commission">FCC</abbr> regulations), 4 <abbr title="kilobyte">KB</abbr> of <abbr title="random access memory">RAM</abbr>, an audio cassette interface for loading programs and storing data, and the Integer <abbr title="Beginner's All-purpose Symbolic Instruction Code">BASIC</abbr> programming language built into the <abbr title="read-only memory">ROM</abbr>s. To reflect the computer's color graphics capability, the Apple logo on the casing has rainbow stripes, which remained a part of Apple's corporate logo until early 1998.</p>
+
+    <!--
+      Many abbreviations in this text! Did you catch them all?
+    -->
+
+    <h3>Specifications</h3>
+
+    <ul>
+      <li><strong>Release Date:</strong> June 1977</li>
+      <li><strong>Price:</strong> $1,298</li>
+      <li><strong>Operating System:</strong> Integer BASIC</li>
+      <li><strong><abbr title="central processing unit">CPU</abbr>:</strong> MOS 6502</li>
+      <li><strong>Memory:</strong> 4KB to 64KB</li>
+    </ul>
+
+    <!--
+      Notice the entry for "CPU", which has nested tags. We open with
+      strong, then abbr. After the content, we close abbr, then strong.
+      Always close the most recent open tag first.
+
+      The following would be incorrect:
+
+      <strong><abbr>CPU</strong></abbr>
+    -->
+
+  </body>
+</html>

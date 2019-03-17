@@ -13,6 +13,16 @@ body {
   color: #222;
 }
 
+p {
+  font-family: "Garamond", "Times New Roman", serif;
+  color: #222;
+}
+
+ul {
+  font-family: "Garamond", "Times New Roman", serif;
+  color: #222;
+}
+
 /* Links */
 
 /*
@@ -38,7 +48,7 @@ a {
 }
 
 a:visited {
-  color: rgba(255,25,1,0.5); /* red-ish, half opacity */
+  color: rgba(255,25,1,.5); /* red-ish, half opacity */
 }
 
 a:hover {

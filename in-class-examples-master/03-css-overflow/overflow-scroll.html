@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Overflow: Scroll</title>
+
+    <style>
+      div {
+        width: 300px;
+        height: 300px;
+        border: 3px solid #222;
+        overflow: scroll;
+
+        /*
+          'scroll' will make bars appear whether there is content
+          which extends beyond the confines of the div.
+
+          This may change because it is related to how the computer's
+          operating system -- not the browser -- handles scroll bars.
+          It is possible using scroll may result in nothing appearing.
+
+          Try viewing this page on a different operating system and/or
+          different browsers!
+        */
+
+      }
+    </style>
+
+  </head>
+  <body>
+    <main>
+
+      <div>
+        <img src="kitty.jpg" alt="Grace Kelly, a polydactyl kitten." />
+      </div>
+
+      <p>Grace Kelly, a polydactyl kitten.</p>
+
+      <div>
+        <p>Text</p>
+      </div>
+
+    </main>
+  </body>
+</html>

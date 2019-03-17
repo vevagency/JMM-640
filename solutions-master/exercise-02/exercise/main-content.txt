@@ -1,0 +1,25 @@
+Quorra's Software Shack
+
+Welcome to Quorra's Software Shack, a sister web shop for Flynn's Retro Computers. We can fill your software needs, from programming languages and operating systems to applications and games.
+
+
+Programming Languages
+
+LANGUAGE   VERSION    WEB SITE
+Go         1.10.3     golang.org
+PHP        7.1.20     php.net
+Python     3.7.0      python.org
+Ruby       2.5.1      ruby-lang.org
+Swift      4.1.3      swift.org
+
+
+Operating Systems
+
+NAME     VERSION              TYPE
+macOS    10.13 (High Sierra)  Apple
+macOS    10.14 (Mojave)*      Apple
+Arch     2018.07.01           Linux
+Debian   9.5                  Linux
+Ubuntu   18.04.1 LTS          Linux
+Windows  10                   Microsoft
+* available Fall 2018

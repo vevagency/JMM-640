@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Overflow: Hidden</title>
+
+    <style>
+      div {
+        width: 300px;
+        height: 300px;
+        border: 3px solid #222;
+        overflow: hidden;
+
+        /*
+          Use dev tools to see the image still exists ... it is just
+          'hidden' outside the confines of our div.
+        */
+      }
+    </style>
+
+  </head>
+  <body>
+    <main>
+
+      <div>
+        <img src="kitty.jpg" alt="Grace Kelly, a polydactyl kitten." />
+      </div>
+
+      <p>Grace Kelly, a polydactyl kitten.</p>
+
+    </main>
+  </body>
+</html>

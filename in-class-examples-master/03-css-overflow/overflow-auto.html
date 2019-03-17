@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Overflow: Auto</title>
+
+    <style>
+      div {
+        width: 300px;
+        height: 300px;
+        border: 3px solid #222;
+        overflow: auto;
+
+        /*
+          'auto' will add scroll bars only when necessary and only
+          to the axis in which they are needed. (So if the content
+          within a box is taller than it is wider, only a vertical
+          scroll bar will appear.)
+        */
+      }
+    </style>
+
+  </head>
+  <body>
+    <main>
+
+      <div>
+        <img src="kitty.jpg" alt="Grace Kelly, a polydactyl kitten." />
+      </div>
+
+      <p>Grace Kelly, a polydactyl kitten.</p>
+
+    </main>
+  </body>
+</html>
