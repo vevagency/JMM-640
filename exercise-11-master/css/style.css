@@ -1,0 +1,33 @@
+/* style.css */
+
+body {
+  font: 16px/1.5 sans-serif;
+}
+div {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(242,87,30);
+}
+section{
+  width: 600px;
+  height: 200px;
+  border: 1px solid #222;
+  overflow: auto;
+  margin: 10px;
+}
+#box01 {
+  float: left;
+  margin-right: 10px;
+}
+#box02 {
+  float: right;
+  margin-left: 10px;
+}
+#box03 {
+  float: left;
+  margin-right: 10px;
+}
+.clear-me {
+  clear: left;
+  margin-top: 10px;
+}
