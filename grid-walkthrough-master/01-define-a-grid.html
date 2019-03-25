@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Define a Grid</title>
+    <link href="css/base.css" rel="stylesheet" />
+    <style>
+    /* class grid is what is applying to this style */
+      .grid {
+      /* first define is going to be a grid */
+        display: grid;
+      /* how many columns and rows do we want? provide a template */
+      /* grid-template-columns: 300px 300px 300px; */
+      /* grid-template-columns: repeat(2, 200px) 400px; */
+        grid-template-columns: 200px 1fr 1fr;
+        grid-template-rows: 100px 100px;
+      /* space in between columns and rows */
+        /* grid-column-gap: 20px; */
+        /* grid-row-gap: 20px; */
+        grid-gap: 20px;
+      /* everythig not explicitly defined, use auto rows */
+        grid-auto-rows: 300px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- div containing all blocks that we see -->
+
+    </select>
+    <div class="grid">
+      <div id="a">Box A</div>
+      <div id="b">Box B</div>
+      <div id="c">Box C</div>
+
+      <div id="d">Box D</div>
+      <div id="e">Box E</div>
+      <div id="f">Box F</div>
+
+      <div id="g">Box G</div>
+      <div id="h">Box H</div>
+    </div>
+
+  </body>
+</html>

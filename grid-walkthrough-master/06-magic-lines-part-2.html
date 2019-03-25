@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Magic Lines, Part 2</title>
+    <link href="css/base.css" rel="stylesheet" />
+    <style>
+      #masthead {
+        grid-area: masthead;
+      }
+
+      #sidebar {
+        grid-area: sidebar;
+      }
+
+      #article {
+        grid-area: article;
+      }
+
+      #footer {
+        grid-area: footer;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 2fr 4fr ;
+        grid-template-rows: 200px 200px;
+        grid-gap: 20px;
+        grid-template-areas:
+          "masthead  masthead"
+          "sidebar   article"
+          "sidebar   footer";
+      }
+
+      .grid .test {
+
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="grid">
+      <div id="masthead">Header</div>
+      <div id="sidebar">Sidebar</div>
+      <div id="article">Article</div>
+      <div id="footer">Footer</div>
+      <div class="test">We added content!</div>
+    </div>
+
+  </body>
+</html>
