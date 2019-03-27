@@ -6,18 +6,22 @@
     <link href="css/base.css" rel="stylesheet" />
     <style>
       .grid {
-
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 2fr [abc-start] 4fr [abc-end];
+        grid-template-rows: 200px [abc-start] 200px [abc-end];
       }
 
       #content {
-
+        grid-column: abc-start;
+        grid-row: abc-start;
       }
 
-      /* .grid > .test {
-        grid-area: content;
+      .grid > .test {
+        grid-area: abc;
         background-color: red;
         border: 1px solid #aaa;
-      } */
+      }
     </style>
   </head>
 

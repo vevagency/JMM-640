@@ -5,25 +5,35 @@
     <title>Line-based Positioning</title>
     <link href="css/base.css" rel="stylesheet" />
     <style>
+      /* identify these IDs as being grid area
+        grid-area: fill in the blank; */
       #masthead {
-
+        grid-area: masthead;
       }
 
       #sidebar {
-
+        grid-area: sidebar;
       }
 
       #article {
-
+        grid-area: article;
       }
 
       #footer {
-
+        grid-area: footer;
       }
 
-
       .grid {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 2fr 4fr;
+        grid-template-rows: 200px 200px;
 
+        /* grid area IDs wondering where to go */
+        grid-template-areas:
+        "masthead masthead"
+        "sidebar  article"
+        "footer   footer";
       }
     </style>
   </head>
